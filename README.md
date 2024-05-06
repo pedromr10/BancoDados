@@ -1,6 +1,6 @@
 # Integrantes:
-- Alan Daiki Suga (RA: )
-- Gustavo Gomes Barbosa (RA: )
+- Alan Daiki Suga (RA: 24.122.051-6)
+- Gustavo Gomes Barbosa (RA: 24.122.061-5)
 - Pedro Munhoz Rosin (RA: 24.122.013-6)
 
 # Diagrama Relacional:
