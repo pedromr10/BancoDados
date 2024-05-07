@@ -42,7 +42,7 @@ CREATE TABLE departamento(
 
 CREATE TABLE disciplina(
 	nome VARCHAR(30),
-	id_cursod VARCHAR(2),
+	id_curso VARCHAR(2),
 	codigo VARCHAR(10),
 	PRIMARY KEY(codigo),
 	FOREIGN KEY (id_curso) REFERENCES curso(id_curso)
