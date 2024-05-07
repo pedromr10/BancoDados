@@ -7,7 +7,7 @@
 ![bancodedados drawio](https://github.com/pedromr10/BancoDados/assets/114040568/ea5868e4-6792-4967-9470-783442a10acf)
 
 # Funcionamento:
-Nosso README foi divido em quatro partes.
+Nosso versionamento foi divido em quatro partes.
 * README: informações do projeto;
 * codigobd: onde o código para a criação da database e tabelas se apresenta;
 * dadosaleatoriosbd: onde os valores aleatórios serão armazenados para testagem do projeto;
