@@ -12,6 +12,7 @@ Nosso README foi divido em quatro partes.
 * codigobd: onde o código para a criação da database e tabelas se apresenta;
 * dadosaleatoriosbd: onde os valores aleatórios serão armazenados para testagem do projeto;
 * queriesbd: onde estarão as queries para resolver os itens pedidos;
+<br>
 Desta maneira, para o funcionamento do projeto:
 1º. Deve-se copiar o código da aba "codigobd" e colar no Banco de Dados;
 2º. Deve-se copiar os valores aleatórios na aba "dadosaleatoriosbd" e colar no Banco de Dados;
