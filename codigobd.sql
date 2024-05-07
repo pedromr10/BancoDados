@@ -41,26 +41,19 @@ CREATE TABLE departamento(
 );
 
 CREATE TABLE disciplina(
-	nome VARCHAR(30),
-	id_curso VARCHAR(2),
-	codigo VARCHAR(10),
-	PRIMARY KEY(codigo),
-	FOREIGN KEY (id_curso) REFERENCES curso(id_curso)
+  nome VARCHAR(30),
+  id_cursot VARCHAR(2),
+  codigo VARCHAR(10),
+  PRIMARY KEY(codigo),
+  FOREIGN KEY (id_cursot) REFERENCES curso(id_curso)
 );
 
 CREATE TABLE tcc(
-	id_grupot VARCHAR(9),
-	id_orientadort VARCHAR(9),
-	--PRIMARY KEY (id_orientador),
-	FOREIGN KEY (id_orientadort) REFERENCES orientador(id_prof),
-	FOREIGN KEY(id_grupot) REFERENCES aluno(ra)
+  id_grupot VARCHAR(9),
+  id_orientadort VARCHAR(9),
+  FOREIGN KEY (id_orientadort) REFERENCES orientador(id_prof),
+  FOREIGN KEY (id_grupot) REFERENCES alnuo(ra)
 );
-
-
-
-
-
-
 
 
 
