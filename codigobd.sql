@@ -1,4 +1,4 @@
-CREATE TABLE faculdade;
+CREATE TABLE faculdade();
 
 CREATE TABLE departamento(
   nome VARCHAR(20),
@@ -31,6 +31,14 @@ CREATE TABLE aluno(
   FOREIGN KEY (id_cursoa) REFERENCES curso(id_curso)
 );
 
+CREATE TABLE grupotcc(
+  id_grupo VARCHAR(9),
+  aluno_ra VARCHAR(9),
+  n_alunos INT,
+  PRIMARY KEY (id_grupo),
+  FOREIGN KEY (aluno_ra) REFERENCES aluno(ra)
+);
+
 CREATE TABLE professor(
   nome VARCHAR(30),
   idade INT,
@@ -50,13 +58,6 @@ CREATE TABLE orientador(
   FOREIGN KEY (id_professor) REFERENCES professor(ra)
 );
 
-CREATE TABLE grupotcc(
-  id_grupo VARCHAR(9),
-  aluno VARCHAR(9),
-  n_alunos INTEGER(1),
-  PRIMARY KEY (id_grupo),
-  FOREIGN KEY (aluno) REFERENCES aluno(ra),
-);
 CREATE TABLE tcc(
   id_grupot VARCHAR(9),
   id_orientadort VARCHAR(9),
@@ -82,19 +83,3 @@ CREATE TABLE historicoprof(
   FOREIGN KEY (id_professorhp) REFERENCES professor(ra),
   FOREIGN KEY (id_disciplinahp) REFERENCES disciplina(codigo)
 );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
