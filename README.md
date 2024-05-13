@@ -4,7 +4,7 @@
 - Pedro Munhoz Rosin (RA: 24.122.013-6)
 
 # Diagrama Relacional:
-![bancodedados drawio](https://github.com/pedromr10/BancoDados/assets/100044322/5a7aad66-6163-42f9-a7e3-31fb80ec1c2e)
+![bancodedados drawio (1)](https://github.com/pedromr10/BancoDados/assets/100044322/b0ac4c71-7394-4ae8-840d-60cf858680a4)
 
 # Funcionamento:
 Nosso versionamento foi divido em quatro partes.
