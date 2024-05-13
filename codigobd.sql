@@ -59,7 +59,7 @@ CREATE TABLE tcc(
 
 CREATE TABLE historico(
   id_alunoh VARCHAR(9),
-  nota DOUBLE(2),
+  nota FLOAT(2),
   ano INT,
   semestre INT,
   id_disciplinah VARCHAR(10),
