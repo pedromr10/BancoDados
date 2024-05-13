@@ -46,15 +46,22 @@ CREATE TABLE orientador(
   id_grupo VARCHAR(9),
   id_professor VARCHAR(9),
   PRIMARY KEY(id_professor),
-  FOREIGN KEY (id_grupo) REFERENCES aluno(ra),
+  FOREIGN KEY (id_grupo) REFERENCES grupotcc(id_grupo),
   FOREIGN KEY (id_professor) REFERENCES professor(ra)
 );
 
+CREATE TABLE grupotcc(
+  id_grupo VARCHAR(9),
+  aluno VARCHAR(9),
+  n_alunos INTEGER(1),
+  PRIMARY KEY (id_grupo),
+  FOREIGN KEY (aluno) REFERENCES aluno(ra),
+);
 CREATE TABLE tcc(
   id_grupot VARCHAR(9),
   id_orientadort VARCHAR(9),
   FOREIGN KEY (id_orientadort) REFERENCES orientador(id_professor),
-  FOREIGN KEY (id_grupot) REFERENCES aluno(ra)
+  FOREIGN KEY (id_grupot) REFERENCES grupotcc(id_grupo)
 );
 
 CREATE TABLE historico(
