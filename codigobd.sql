@@ -54,7 +54,7 @@ CREATE TABLE tcc(
   id_grupot VARCHAR(9),
   id_orientadort VARCHAR(9),
   FOREIGN KEY (id_orientadort) REFERENCES orientador(id_professor),
-  FOREIGN KEY (id_grupot) REFERENCES alnuo(ra)
+  FOREIGN KEY (id_grupot) REFERENCES aluno(ra)
 );
 
 CREATE TABLE historico(
@@ -63,7 +63,7 @@ CREATE TABLE historico(
   ano INT,
   semestre INT,
   id_disciplinah VARCHAR(10),
-  FOREIGN KEY (id_alunoh) REFERENCES alnuo(ra),
+  FOREIGN KEY (id_alunoh) REFERENCES aluno(ra),
   FOREIGN KEY (id_disciplinah) REFERENCES disciplina(codigo)
 );
 
