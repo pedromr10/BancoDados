@@ -55,6 +55,34 @@ CREATE TABLE tcc(
   FOREIGN KEY (id_grupot) REFERENCES alnuo(ra)
 );
 
+CREATE TABLE historico(
+  id_alunoh VARCHAR(9),
+  nota DOUBLE(2),
+  ano INT,
+  semestre INT,
+  id_disciplinah VARCHAR(10),
+  FOREIGN KEY (id_alunoh) REFERENCES alnuo(ra),
+  FOREIGN KEY (id_disciplinah) REFERENCES disciplina(codigo)
+);
+
+CREATE TABLE historicoprof(
+  id_professorhp VARCHAR(9),
+  id_disciplinahp VARCHAR(10),
+  semestre INT,
+  ano INT,
+  FOREIGN KEY (id_professorhp) REFERENCES professor(ra),
+  FOREIGN KEY (id_disciplinahp) REFERENCES disciplina(codigo)
+);
+
+
+
+
+
+
+
+
+
+
 
 
 
