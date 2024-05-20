@@ -1,0 +1,10 @@
+insert into curso (id, nome, id_deptoc) values ('EE', 'Eng. Eletrica', 'Fisica');
+insert into curso (id, nome, id_deptoc) values ('CD', 'Ciencia de Dados', 'Computacao');
+insert into curso (id, nome, id_deptoc) values ('CC', 'Ciencia da Computacao', 'Computacao');
+insert into curso (id, nome, id_deptoc) values ('AD', 'Administracao', 'Engenharia');
+insert into curso (id, nome, id_deptoc) values ('EE', 'Eng. Eletrica', 'Engenharia');
+insert into curso (id, nome, id_deptoc) values ('EE', 'Eng. Eletrica', 'Calculo');
+insert into curso (id, nome, id_deptoc) values ('CC', 'Ciencia da Computacao', 'Engenharia');
+insert into curso (id, nome, id_deptoc) values ('EQ', 'Eng. Quimica', 'Quimica');
+insert into curso (id, nome, id_deptoc) values ('AN', 'Analise de Dados', 'Quimica');
+insert into curso (id, nome, id_deptoc) values ('EQ', 'Eng. Quimica', 'Engenharia');
