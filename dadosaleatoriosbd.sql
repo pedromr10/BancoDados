@@ -42,40 +42,40 @@ INSERT INTO disciplina VALUES ('Fundamento de eletrica', 'EE', 'EE001');
 INSERT INTO disciplina VALUES ('Eletrica avancada', 'EE', 'EE002');
   /*Insert em Mecanica:*/
 INSERT INTO disciplina VALUES ('Fundamento de mecanica', 'EM', 'EM001');
-INSERT INTO disciplina VALUES ('Mecanica avancada', 'EM', 'EM002';
+INSERT INTO disciplina VALUES ('Mecanica avancada', 'EM', 'EM002');
   /*Insert em Quimica:*/
 INSERT INTO disciplina VALUES ('Fundamento de quimica', 'EQ', 'EQ001');
-INSERT INTO disciplina VALUES ('Quimica avancada', 'EQ', 'EQ002';
+INSERT INTO disciplina VALUES ('Quimica avancada', 'EQ', 'EQ002');
   /*Insert em Rovotica:*/
 INSERT INTO disciplina VALUES ('Fundamento de robotica', 'ER', 'ER001');
-INSERT INTO disciplina VALUES ('Robotica avancada', 'ER', 'ER002';
+INSERT INTO disciplina VALUES ('Robotica avancada', 'ER', 'ER002');
   /*Insert em Aplicada:*/
 INSERT INTO disciplina VALUES ('Fundamento de aplicada', 'FA', 'FA001');
-INSERT INTO disciplina VALUES ('Aplicada avancada', 'FA', 'FA002';
+INSERT INTO disciplina VALUES ('Aplicada avancada', 'FA', 'FA002');
   /*Insert em Geral:*/
 INSERT INTO disciplina VALUES ('Fundamento de Fisica geral', 'FG', 'FG001');
-INSERT INTO disciplina VALUES ('Fisica geral avancada', 'FG', 'FG002';
+INSERT INTO disciplina VALUES ('Fisica geral avancada', 'FG', 'FG002');
   /*Insert em Quantica:*/
 INSERT INTO disciplina VALUES ('Fundamento de Fisica quantica', 'FQ', 'FQ001');
-INSERT INTO disciplina VALUES ('Fisica quantica avancada', 'FQ', 'FQ002';
+INSERT INTO disciplina VALUES ('Fisica quantica avancada', 'FQ', 'FQ002');
   /*Insert em Algebra:*/
 INSERT INTO disciplina VALUES ('Fundamento de algebra', 'MA', 'MA001');
-INSERT INTO disciplina VALUES ('Algebra avancada', 'MA', 'MA002';
+INSERT INTO disciplina VALUES ('Algebra avancada', 'MA', 'MA002');
   /*Insert em Calculos:*/
 INSERT INTO disciplina VALUES ('Calculo 1', 'MC', 'MC001');
-INSERT INTO disciplina VALUES ('Calculo 2', 'MC', 'MC002';
+INSERT INTO disciplina VALUES ('Calculo 2', 'MC', 'MC002');
   /*Insert em Estatistica:*/
 INSERT INTO disciplina VALUES ('Estatistica 1', 'ME', 'ME001');
-INSERT INTO disciplina VALUES ('Estatistica avancada', 'ME', 'ME002';
+INSERT INTO disciplina VALUES ('Estatistica avancada', 'ME', 'ME002');
   /*Insert em Geometria:*/
 INSERT INTO disciplina VALUES ('Geometria analitica', 'MG', 'MG001');
-INSERT INTO disciplina VALUES ('Geometria analitica avancada', 'MG', 'MG002';
+INSERT INTO disciplina VALUES ('Geometria analitica avancada', 'MG', 'MG002');
   /*Insert em Linear:*/
 INSERT INTO disciplina VALUES ('Fundamento linear', 'ML', 'ML001');
-INSERT INTO disciplina VALUES ('Linear avancado', 'ML', 'ML002';
+INSERT INTO disciplina VALUES ('Linear avancado', 'ML', 'ML002');
   /*Insert em Probabilidade:*/
 INSERT INTO disciplina VALUES ('Probabilidade 1', 'MP', 'MP001');
-INSERT INTO disciplina VALUES ('Probabilidade 2', 'MP', 'MP002';
+INSERT INTO disciplina VALUES ('Probabilidade 2', 'MP', 'MP002');
 
 
 
