@@ -22,21 +22,22 @@ CREATE TABLE disciplina(
   FOREIGN KEY (id_cursot) REFERENCES curso(id_curso)
 );
 
+CREATE TABLE tcc(
+  id_grupo VARCHAR(9),
+  id_orientadort VARCHAR(9),
+  FOREIGN KEY (id_orientadort) REFERENCES orientador(id_professor),
+  PRIMARY KEY (id_grupo)
+);
+
 CREATE TABLE aluno(
   nome VARCHAR(30),
   idade INT,
   id_cursoa VARCHAR(2),
   ra VARCHAR(9),
+  tcc_a VARCHAR(9),
   PRIMARY KEY(ra),
-  FOREIGN KEY (id_cursoa) REFERENCES curso(id_curso)
-);
-
-CREATE TABLE grupotcc(
-  id_grupo VARCHAR(9),
-  aluno_ra VARCHAR(9),
-  n_alunos INT,
-  PRIMARY KEY (id_grupo),
-  FOREIGN KEY (aluno_ra) REFERENCES aluno(ra)
+  FOREIGN KEY (id_cursoa) REFERENCES curso(id_curso),
+  FOREIGN KEY (tcc_a) REFERENCES tcc(id_grupo)
 );
 
 CREATE TABLE professor(
@@ -51,18 +52,11 @@ CREATE TABLE professor(
 );
 
 CREATE TABLE orientador(
-  id_grupo VARCHAR(9),
+  id_grupoo VARCHAR(9),
   id_professor VARCHAR(9),
   PRIMARY KEY(id_professor),
-  FOREIGN KEY (id_grupo) REFERENCES grupotcc(id_grupo),
+  FOREIGN KEY (id_grupoo) REFERENCES tcc(id_grupo),
   FOREIGN KEY (id_professor) REFERENCES professor(ra)
-);
-
-CREATE TABLE tcc(
-  id_grupot VARCHAR(9),
-  id_orientadort VARCHAR(9),
-  FOREIGN KEY (id_orientadort) REFERENCES orientador(id_professor),
-  FOREIGN KEY (id_grupot) REFERENCES grupotcc(id_grupo)
 );
 
 CREATE TABLE historico(
