@@ -1,4 +1,4 @@
-CREATE DATABASE faculdade;
+CREATE DATABASE projeto;
 
 CREATE TABLE departamento(
   nome VARCHAR(20),
@@ -35,6 +35,7 @@ CREATE TABLE grupotcc(
   id_grupo VARCHAR(9),
   aluno_ra VARCHAR(9),
   n_alunos INT,
+  PRIMARY KEY (id_grupo),
   FOREIGN KEY (aluno_ra) REFERENCES aluno(ra)
 );
 
