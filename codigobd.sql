@@ -24,8 +24,6 @@ CREATE TABLE disciplina(
 
 CREATE TABLE tcc(
   id_grupo VARCHAR(9),
-  id_orientadort VARCHAR(9),
-  FOREIGN KEY (id_orientadort) REFERENCES orientador(id_professor),
   PRIMARY KEY (id_grupo)
 );
 
