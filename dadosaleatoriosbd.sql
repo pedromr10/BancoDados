@@ -24,7 +24,60 @@ insert into curso (nome, id_curso, id_deptoc) values ('Algebra','MA','Matematica
 insert into curso (nome, id_curso, id_deptoc) values ('Geometria','MG','Matematica');
 insert into curso (nome, id_curso, id_deptoc) values ('Linear','ML','Matematica');
 
-/*Insert disciplina*/
+/*Insert disciplina (nome, idcurso, codigo):*/
+  /*Insert em Ciencia da Computacao:*/
+INSERT INTO disciplina VALUES ('Banco de dados', 'CC', 'CC001');
+INSERT INTO disciplina VALUES ('Banco de dados avancado', 'CC', 'CC002');
+  /*Insert em Programacao:*/
+INSERT INTO disciplina VALUES ('Python', 'CP', 'CP001');
+INSERT INTO disciplina VALUES ('Java', 'CP', 'CP002');
+  /*Insert em Redes:*/
+INSERT INTO disciplina VALUES ('Fundamento de redes 1', 'CR', 'CR001');
+INSERT INTO disciplina VALUES ('Fundamento de redes 2', 'CR', 'CR002');
+  /*Insert em Sistemas:*/
+INSERT INTO disciplina VALUES ('Sistemas digitais', 'CS', 'CS001');
+INSERT INTO disciplina VALUES ('Sistemas digitais avancado', 'CS', 'CS002');
+  /*Insert em Eletrica:*/
+INSERT INTO disciplina VALUES ('Fundamento de eletrica', 'EE', 'EE001');
+INSERT INTO disciplina VALUES ('Eletrica avancada', 'EE', 'EE002');
+  /*Insert em Mecanica:*/
+INSERT INTO disciplina VALUES ('Fundamento de mecanica', 'EM', 'EM001');
+INSERT INTO disciplina VALUES ('Mecanica avancada', 'EM', 'EM002';
+  /*Insert em Quimica:*/
+INSERT INTO disciplina VALUES ('Fundamento de quimica', 'EQ', 'EQ001');
+INSERT INTO disciplina VALUES ('Quimica avancada', 'EQ', 'EQ002';
+  /*Insert em Rovotica:*/
+INSERT INTO disciplina VALUES ('Fundamento de robotica', 'ER', 'ER001');
+INSERT INTO disciplina VALUES ('Robotica avancada', 'ER', 'ER002';
+  /*Insert em Aplicada:*/
+INSERT INTO disciplina VALUES ('Fundamento de aplicada', 'FA', 'FA001');
+INSERT INTO disciplina VALUES ('Aplicada avancada', 'FA', 'FA002';
+  /*Insert em Geral:*/
+INSERT INTO disciplina VALUES ('Fundamento de Fisica geral', 'FG', 'FG001');
+INSERT INTO disciplina VALUES ('Fisica geral avancada', 'FG', 'FG002';
+  /*Insert em Quantica:*/
+INSERT INTO disciplina VALUES ('Fundamento de Fisica quantica', 'FQ', 'FQ001');
+INSERT INTO disciplina VALUES ('Fisica quantica avancada', 'FQ', 'FQ002';
+  /*Insert em Algebra:*/
+INSERT INTO disciplina VALUES ('Fundamento de algebra', 'MA', 'MA001');
+INSERT INTO disciplina VALUES ('Algebra avancada', 'MA', 'MA002';
+  /*Insert em Calculos:*/
+INSERT INTO disciplina VALUES ('Calculo 1', 'MC', 'MC001');
+INSERT INTO disciplina VALUES ('Calculo 2', 'MC', 'MC002';
+  /*Insert em Estatistica:*/
+INSERT INTO disciplina VALUES ('Estatistica 1', 'ME', 'ME001');
+INSERT INTO disciplina VALUES ('Estatistica avancada', 'ME', 'ME002';
+  /*Insert em Geometria:*/
+INSERT INTO disciplina VALUES ('Geometria analitica', 'MG', 'MG001');
+INSERT INTO disciplina VALUES ('Geometria analitica avancada', 'MG', 'MG002';
+  /*Insert em Linear:*/
+INSERT INTO disciplina VALUES ('Fundamento linear', 'ML', 'ML001');
+INSERT INTO disciplina VALUES ('Linear avancado', 'ML', 'ML002';
+  /*Insert em Probabilidade:*/
+INSERT INTO disciplina VALUES ('Probabilidade 1', 'MP', 'MP001');
+INSERT INTO disciplina VALUES ('Probabilidade 2', 'MP', 'MP002';
+
+
 
 /*Insert aluno:*/
 insert into aluno (nome, idade, id_cursoa,ra) values ('Rafael',51,'FG','133153741');
