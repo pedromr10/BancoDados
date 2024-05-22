@@ -4,7 +4,6 @@ insert into departamento (nome, depto) values ('Engenharia','Cristiano');
 insert into departamento (nome, depto) values ('Fisica','Larissa');
 insert into departamento (nome, depto) values ('Matematica','Maria');
 
-
 /*Insert curso*/
 insert into curso (nome, id_curso, id_deptoc) values ('Eletrica','EE','Engenharia');
 insert into curso (nome, id_curso, id_deptoc) values ('Quimica','EQ','Engenharia');
@@ -24,7 +23,7 @@ insert into curso (nome, id_curso, id_deptoc) values ('Algebra','MA','Matematica
 insert into curso (nome, id_curso, id_deptoc) values ('Geometria','MG','Matematica');
 insert into curso (nome, id_curso, id_deptoc) values ('Linear','ML','Matematica');
 
-/*Insert disciplina (nome, idcurso, codigo):*/
+/*Insert disciplina:*/
   /*Insert em Ciencia da Computacao:*/
 INSERT INTO disciplina VALUES ('Banco de dados', 'CC', 'CC001');
 INSERT INTO disciplina VALUES ('Banco de dados avancado', 'CC', 'CC002');
@@ -76,8 +75,6 @@ INSERT INTO disciplina VALUES ('Linear avancado', 'ML', 'ML002');
   /*Insert em Probabilidade:*/
 INSERT INTO disciplina VALUES ('Probabilidade 1', 'MP', 'MP001');
 INSERT INTO disciplina VALUES ('Probabilidade 2', 'MP', 'MP002');
-
-
 
 /*Insert aluno:*/
 insert into aluno (nome, idade, id_cursoa,ra) values ('Rafael',51,'FG','133153741');
@@ -180,3 +177,29 @@ insert into aluno (nome, idade, id_cursoa,ra) values ('Isabela',29,'EM','1753282
 insert into aluno (nome, idade, id_cursoa,ra) values ('Larissa',23,'MA','145575624');
 insert into aluno (nome, idade, id_cursoa,ra) values ('João',49,'FG','136576525');
 insert into aluno (nome, idade, id_cursoa,ra) values ('Sofia',31,'FQ','130856804');
+
+/*Insert grupotcc:*/
+insert into grupotcc (id_grupo, aluno_ra, n_alunos) values ('GP1','130856804',3);
+insert into grupotcc (id_grupo, aluno_ra, n_alunos) values ('GP1','136576525',3);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
