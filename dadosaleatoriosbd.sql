@@ -75,9 +75,8 @@ INSERT INTO disciplina VALUES ('Linear avancado', 'ML', 'ML002');
   /*Insert em Probabilidade:*/
 INSERT INTO disciplina VALUES ('Probabilidade 1', 'MP', 'MP001');
 INSERT INTO disciplina VALUES ('Probabilidade 2', 'MP', 'MP002');
-/*
-INSERT TCC  
-*/
+
+/*Insert tcc:*/
 INSERT INTO tcc (tcc_grupo) VALUES ('148423564');
 INSERT INTO tcc (tcc_grupo) VALUES ('132187258');
 INSERT INTO tcc (tcc_grupo) VALUES ('129589860');
@@ -160,10 +159,6 @@ INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Murilo',33,'CS','1
 INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Borges',21,'ER','140426036','119006885');
 INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Jesus',38,'MA','157160376','175925218');
 INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Alan',19,'CS','158018841','201851330');
-/*Insert grupotcc:*/
-insert into grupotcc (id_grupo, aluno_ra, n_alunos) values ('GP1','130856804',3);
-insert into grupotcc (id_grupo, aluno_ra, n_alunos) values ('GP1','136576525',3);
-
 
 
 
