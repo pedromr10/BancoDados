@@ -1,8 +1,8 @@
 /*Insert pro departamento*/
 INSERT INTO departamento (nome, chefe) VALUES ('Engenharia','Jessica');
-INSERT INTO departamento (nome, chefe) VALUES ('Engenharia','Fernando');
-INSERT INTO departamento (nome, chefe) VALUES ('Engenharia','Alan');
-INSERT INTO departamento (nome, chefe) VALUES ('Engenharia','Alan');
+INSERT INTO departamento (nome, chefe) VALUES ('Computacao','Fernando');
+INSERT INTO departamento (nome, chefe) VALUES ('Fisica','Alan');
+INSERT INTO departamento (nome, chefe) VALUES ('Matematica','Alan');
 
 /*Insert pro curso*/
 INSERT INTO curso (nome, id_curso, id_deptoc) VALUES ('Eletrica','EE','Engenharia');
