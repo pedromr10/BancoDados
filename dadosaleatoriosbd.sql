@@ -169,9 +169,6 @@ INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Murilo',23,'FQ','1
 INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Borges',27,'MG','159692533','215198663');
 INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Jesus',46,'CR','196980231','121975978');
 INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Alan',45,'MA','146083364','187244167');
-/*Insert pro historico*/
-INSERT INTO historico (id_alunoh, nota, ano ,semestre ,id_disciplinah) VALUES ('186054267',1.53,'2006','Primeiro','Robotica');
-INSERT INTO historico (id_alunoh, nota, ano ,semestre ,id_disciplinah) VALUES ('148343999',5.59,'2020','Primeiro','Ciencia da Computacao');
 
 /*Insert pro professor*/
 INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Ana',68,'Computacao','Redes','106957542');
