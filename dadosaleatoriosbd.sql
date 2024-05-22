@@ -1,182 +1,258 @@
-/*Insert departamento:*/
-insert into departamento (nome, depto) values ('Computacao','Pedro');
-insert into departamento (nome, depto) values ('Engenharia','Cristiano');
-insert into departamento (nome, depto) values ('Fisica','Larissa');
-insert into departamento (nome, depto) values ('Matematica','Maria');
+/*Insert pro departamento*/
+INSERT INTO departamento (nome, chefe) VALUES ('Engenharia','Jessica');
+INSERT INTO departamento (nome, chefe) VALUES ('Engenharia','Fernando');
+INSERT INTO departamento (nome, chefe) VALUES ('Engenharia','Alan');
+INSERT INTO departamento (nome, chefe) VALUES ('Engenharia','Alan');
 
-/*Insert curso*/
-insert into curso (nome, id_curso, id_deptoc) values ('Eletrica','EE','Engenharia');
-insert into curso (nome, id_curso, id_deptoc) values ('Quimica','EQ','Engenharia');
-insert into curso (nome, id_curso, id_deptoc) values ('Mecanica','EM','Engenharia');
-insert into curso (nome, id_curso, id_deptoc) values ('Robotica','ER','Engenharia');
-insert into curso (nome, id_curso, id_deptoc) values ('Programação','CP','Computacao');
-insert into curso (nome, id_curso, id_deptoc) values ('Sistemas','CS','Computacao');
-insert into curso (nome, id_curso, id_deptoc) values ('Redes','CR','Computacao');
-insert into curso (nome, id_curso, id_deptoc) values ('Ciencia da Computacao','CC','Computacao');
-insert into curso (nome, id_curso, id_deptoc) values ('Quantica','FQ','Fisica');
-insert into curso (nome, id_curso, id_deptoc) values ('Geral','FG','Fisica');
-insert into curso (nome, id_curso, id_deptoc) values ('Aplicada','FA','Fisica');
-insert into curso (nome, id_curso, id_deptoc) values ('Calculos','MC','Matematica');
-insert into curso (nome, id_curso, id_deptoc) values ('Estatistica','ME','Matematica');
-insert into curso (nome, id_curso, id_deptoc) values ('Probabilidade','MP','Matematica');
-insert into curso (nome, id_curso, id_deptoc) values ('Algebra','MA','Matematica');
-insert into curso (nome, id_curso, id_deptoc) values ('Geometria','MG','Matematica');
-insert into curso (nome, id_curso, id_deptoc) values ('Linear','ML','Matematica');
+/*Insert pro curso*/
+INSERT INTO curso (nome, id_curso, id_deptoc) VALUES ('Eletrica','EE','Engenharia');
+INSERT INTO curso (nome, id_curso, id_deptoc) VALUES ('Quimica','EQ','Engenharia');
+INSERT INTO curso (nome, id_curso, id_deptoc) VALUES ('Mecanica','EM','Engenharia');
+INSERT INTO curso (nome, id_curso, id_deptoc) VALUES ('Robotica','ER','Engenharia');
+INSERT INTO curso (nome, id_curso, id_deptoc) VALUES ('Programação','CP','Computacao');
+INSERT INTO curso (nome, id_curso, id_deptoc) VALUES ('Sistemas','CS','Computacao');
+INSERT INTO curso (nome, id_curso, id_deptoc) VALUES ('Redes','CR','Computacao');
+INSERT INTO curso (nome, id_curso, id_deptoc) VALUES ('Ciencia da Computacao','CC','Computacao');
+INSERT INTO curso (nome, id_curso, id_deptoc) VALUES ('Quantica','FQ','Fisica');
+INSERT INTO curso (nome, id_curso, id_deptoc) VALUES ('Geral','FG','Fisica');
+INSERT INTO curso (nome, id_curso, id_deptoc) VALUES ('Aplicada','FA','Fisica');
+INSERT INTO curso (nome, id_curso, id_deptoc) VALUES ('Calculos','MC','Matematica');
+INSERT INTO curso (nome, id_curso, id_deptoc) VALUES ('Estatistica','ME','Matematica');
+INSERT INTO curso (nome, id_curso, id_deptoc) VALUES ('Probabilidade','MP','Matematica');
+INSERT INTO curso (nome, id_curso, id_deptoc) VALUES ('Algebra','MA','Matematica');
+INSERT INTO curso (nome, id_curso, id_deptoc) VALUES ('Geometria','MG','Matematica');
 
-/*Insert disciplina:*/
-  /*Insert em Ciencia da Computacao:*/
-INSERT INTO disciplina VALUES ('Banco de dados', 'CC', 'CC001');
-INSERT INTO disciplina VALUES ('Banco de dados avancado', 'CC', 'CC002');
-  /*Insert em Programacao:*/
-INSERT INTO disciplina VALUES ('Python', 'CP', 'CP001');
-INSERT INTO disciplina VALUES ('Java', 'CP', 'CP002');
-  /*Insert em Redes:*/
-INSERT INTO disciplina VALUES ('Fundamento de redes 1', 'CR', 'CR001');
-INSERT INTO disciplina VALUES ('Fundamento de redes 2', 'CR', 'CR002');
-  /*Insert em Sistemas:*/
-INSERT INTO disciplina VALUES ('Sistemas digitais', 'CS', 'CS001');
-INSERT INTO disciplina VALUES ('Sistemas digitais avancado', 'CS', 'CS002');
-  /*Insert em Eletrica:*/
-INSERT INTO disciplina VALUES ('Fundamento de eletrica', 'EE', 'EE001');
-INSERT INTO disciplina VALUES ('Eletrica avancada', 'EE', 'EE002');
-  /*Insert em Mecanica:*/
-INSERT INTO disciplina VALUES ('Fundamento de mecanica', 'EM', 'EM001');
-INSERT INTO disciplina VALUES ('Mecanica avancada', 'EM', 'EM002');
-  /*Insert em Quimica:*/
-INSERT INTO disciplina VALUES ('Fundamento de quimica', 'EQ', 'EQ001');
-INSERT INTO disciplina VALUES ('Quimica avancada', 'EQ', 'EQ002');
-  /*Insert em Rovotica:*/
-INSERT INTO disciplina VALUES ('Fundamento de robotica', 'ER', 'ER001');
-INSERT INTO disciplina VALUES ('Robotica avancada', 'ER', 'ER002');
-  /*Insert em Aplicada:*/
-INSERT INTO disciplina VALUES ('Fundamento de aplicada', 'FA', 'FA001');
-INSERT INTO disciplina VALUES ('Aplicada avancada', 'FA', 'FA002');
-  /*Insert em Geral:*/
-INSERT INTO disciplina VALUES ('Fundamento de Fisica geral', 'FG', 'FG001');
-INSERT INTO disciplina VALUES ('Fisica geral avancada', 'FG', 'FG002');
-  /*Insert em Quantica:*/
-INSERT INTO disciplina VALUES ('Fundamento de Fisica quantica', 'FQ', 'FQ001');
-INSERT INTO disciplina VALUES ('Fisica quantica avancada', 'FQ', 'FQ002');
-  /*Insert em Algebra:*/
-INSERT INTO disciplina VALUES ('Fundamento de algebra', 'MA', 'MA001');
-INSERT INTO disciplina VALUES ('Algebra avancada', 'MA', 'MA002');
-  /*Insert em Calculos:*/
-INSERT INTO disciplina VALUES ('Calculo 1', 'MC', 'MC001');
-INSERT INTO disciplina VALUES ('Calculo 2', 'MC', 'MC002');
-  /*Insert em Estatistica:*/
-INSERT INTO disciplina VALUES ('Estatistica 1', 'ME', 'ME001');
-INSERT INTO disciplina VALUES ('Estatistica avancada', 'ME', 'ME002');
-  /*Insert em Geometria:*/
-INSERT INTO disciplina VALUES ('Geometria analitica', 'MG', 'MG001');
-INSERT INTO disciplina VALUES ('Geometria analitica avancada', 'MG', 'MG002');
-  /*Insert em Linear:*/
-INSERT INTO disciplina VALUES ('Fundamento linear', 'ML', 'ML001');
-INSERT INTO disciplina VALUES ('Linear avancado', 'ML', 'ML002');
-  /*Insert em Probabilidade:*/
-INSERT INTO disciplina VALUES ('Probabilidade 1', 'MP', 'MP001');
-INSERT INTO disciplina VALUES ('Probabilidade 2', 'MP', 'MP002');
+/*Insert pro disciplina*/
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Calculo','EE','2191942149');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Componentes Eletricos','EE','3806643141');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Circuitos','EE','4481581187');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Eletrica','EE','1688180719');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Calculo','EQ','1147762233');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Organica','EQ','3236257879');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Tabela Periodica','EQ','3104901561');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Solucoes','EQ','2407773507');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Reacoes','EQ','1326801271');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Calculo','EM','2073727536');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Durabilidade de Materiais','EM','4202098662');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Eletrica','EM','2551164510');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Calculo','ER','1191368220');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Durabilidade de Materiais','ER','2805587908');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Energia','ER','4694363523');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Etica Robotica','ER','1595665893');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Calculo','CP','3590683945');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Teoria dos grafos','CP','2525064232');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Automatos','CP','2638985225');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Complexidade de Algoritmos','CP','2809315075');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Calculo','CS','2218130959');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Engenharia de software','CS','4551286111');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Front-end','CS','3898951949');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Fundamentos da rede','CR','2126660590');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Top. Avancados de rede','CR','2962074861');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES (' Banco de dados','CR','1750204460');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Calculo','CC','3945752670');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Arquitetura de Computadores','CC','2301826559');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Algebra Linear','CC','3842608307');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Calculo','FQ','2557301086');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Fisica','FQ','1571136778');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Mecanica','FQ','2962492619');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Cinetica','FQ','4297838288');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Computacao Quantica','FQ','4693882924');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Calculo','FG','2028130498');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Fisica','FG','2888272822');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Fluidos','FG','3634218640');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Termodinamica','FG','2611656385');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Calculo','FA','1190097954');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Fisica','FA','3503671984');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Astronomia','FA','1017416711');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Estatistica','FA','2012125923');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Leis de Newton Aplicado','FA','1575407617');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Calculo','MC','1837318074');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Probabilidade','MC','4906651747');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Calculo 2','MC','2300776207');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Matematica Aplicada','MC','3303584948');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Calculo','ME','2572583374');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Probabilidade','ME','4315953022');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Estatistica','ME','4857723518');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Calculo','MP','2031575033');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Integral','MP','2350182240');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Pesquisa operacional','MP','3863411522');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Derivada','MP','3357860530');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Calculo','MG','2935411051');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Geometria Analitica','MG','2872738711');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Geometria basica','MG','3018522846');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Geometria computacional','MG','1279147864');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Algebra Linear','MA','3804517990');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Calculo','MA','3510606935');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Integral','MA','2394525548');
+INSERT INTO disciplina (nome, id_cursot, codigo) VALUES ('Graficos','MA','4625244021');
 
-/*Insert tcc:*/
-INSERT INTO tcc (tcc_grupo) VALUES ('148423564');
-INSERT INTO tcc (tcc_grupo) VALUES ('132187258');
-INSERT INTO tcc (tcc_grupo) VALUES ('129589860');
-INSERT INTO tcc (tcc_grupo) VALUES ('119006885');
-INSERT INTO tcc (tcc_grupo) VALUES ('116455994');
-INSERT INTO tcc (tcc_grupo) VALUES ('211544012');
-INSERT INTO tcc (tcc_grupo) VALUES ('171137609');
-INSERT INTO tcc (tcc_grupo) VALUES ('119790706');
-INSERT INTO tcc (tcc_grupo) VALUES ('214084301');
-INSERT INTO tcc (tcc_grupo) VALUES ('139918685');
-INSERT INTO tcc (tcc_grupo) VALUES ('209310562');
-INSERT INTO tcc (tcc_grupo) VALUES ('177439854');
-INSERT INTO tcc (tcc_grupo) VALUES ('175925218');
-INSERT INTO tcc (tcc_grupo) VALUES ('194205177');
-INSERT INTO tcc (tcc_grupo) VALUES ('151799872');
-INSERT INTO tcc (tcc_grupo) VALUES ('192110097');
-INSERT INTO tcc (tcc_grupo) VALUES ('123244309');
-INSERT INTO tcc (tcc_grupo) VALUES ('154813138');
-INSERT INTO tcc (tcc_grupo) VALUES ('138239385');
-INSERT INTO tcc (tcc_grupo) VALUES ('195226861');
-INSERT INTO tcc (tcc_grupo) VALUES ('124122959');
-INSERT INTO tcc (tcc_grupo) VALUES ('133151005');
-INSERT INTO tcc (tcc_grupo) VALUES ('202204530');
-INSERT INTO tcc (tcc_grupo) VALUES ('177004526');
-INSERT INTO tcc (tcc_grupo) VALUES ('191718555');
-INSERT INTO tcc (tcc_grupo) VALUES ('211494147');
-INSERT INTO tcc (tcc_grupo) VALUES ('201851330');
+/*Insert pro tcc*/
+INSERT INTO tcc (tcc_grupo) VALUES ('178477273');
+INSERT INTO tcc (tcc_grupo) VALUES ('132105302');
+INSERT INTO tcc (tcc_grupo) VALUES ('141216008');
+INSERT INTO tcc (tcc_grupo) VALUES ('166525612');
+INSERT INTO tcc (tcc_grupo) VALUES ('143105128');
+INSERT INTO tcc (tcc_grupo) VALUES ('116067083');
+INSERT INTO tcc (tcc_grupo) VALUES ('115372079');
+INSERT INTO tcc (tcc_grupo) VALUES ('177764104');
+INSERT INTO tcc (tcc_grupo) VALUES ('151532692');
+INSERT INTO tcc (tcc_grupo) VALUES ('220898912');
+INSERT INTO tcc (tcc_grupo) VALUES ('192537948');
+INSERT INTO tcc (tcc_grupo) VALUES ('199411738');
+INSERT INTO tcc (tcc_grupo) VALUES ('120779454');
+INSERT INTO tcc (tcc_grupo) VALUES ('182714085');
+INSERT INTO tcc (tcc_grupo) VALUES ('121975978');
+INSERT INTO tcc (tcc_grupo) VALUES ('131201912');
+INSERT INTO tcc (tcc_grupo) VALUES ('162706937');
+INSERT INTO tcc (tcc_grupo) VALUES ('187244167');
+INSERT INTO tcc (tcc_grupo) VALUES ('161332004');
+INSERT INTO tcc (tcc_grupo) VALUES ('191816841');
+INSERT INTO tcc (tcc_grupo) VALUES ('131198358');
+INSERT INTO tcc (tcc_grupo) VALUES ('126266399');
+INSERT INTO tcc (tcc_grupo) VALUES ('215198663');
+INSERT INTO tcc (tcc_grupo) VALUES ('214879953');
+INSERT INTO tcc (tcc_grupo) VALUES ('124077326');
+INSERT INTO tcc (tcc_grupo) VALUES ('170375059');
+INSERT INTO tcc (tcc_grupo) VALUES ('133440074');
 
-/*Insert aluno:*/
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Ana',21,'MG','102605473','191718555');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Pedro',40,'CP','158434316','191718555');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Maria',60,'FA','179243686','191718555');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('João',27,'MA','144726316','132187258');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Luísa',27,'EM','117387630','133151005');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Rafael',54,'CP','110306981','194205177');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Sofia',60,'CC','129485403','119790706');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Carlos',25,'CS','119682721','214084301');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Camila',33,'FQ','169191420','124122959');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('André',44,'FQ','149634227','123244309');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Mariana',51,'FG','111086970','214084301');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Lucas',26,'MA','118878198','177439854');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Juliana',32,'EE','134037630','132187258');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Fernando',55,'CS','186901705','211494147');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Laura',44,'FG','147387181','191718555');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Diego',22,'CC','126291014','201851330');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Carolina',37,'CC','166832971','192110097');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Gabriel',20,'EE','132176714','214084301');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Beatriz',46,'EQ','134821829','194205177');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Tiago',39,'ER','186326928','119006885');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Isabela',49,'FA','140370030','177004526');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Mateus',31,'ME','172588397','177004526');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Natália',44,'EM','164077143','119790706');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Gustavo',21,'ER','131618666','148423564');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Vanessa',48,'FA','162618561','211494147');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Vinícius',45,'CC','123968085','123244309');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Patrícia',59,'MA','174989291','148423564');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Eduardo',23,'MA','133759269','132187258');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Larissa',51,'CS','174373486','124122959');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Rodrigo',52,'MC','114314311','119006885');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Amanda',18,'ME','188614729','124122959');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Felipe',36,'EE','113804241','175925218');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Manuela',24,'EE','166983221','119006885');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Thiago',24,'FQ','151371459','133151005');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Mariane',25,'MA','107180389','116455994');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Marcelo',55,'CS','195278507','214084301');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Jessica',29,'FQ','105345586','154813138');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Fábio',28,'CC','109201809','132187258');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Renata',42,'FA','146278492','139918685');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Daniel',32,'FA','102392785','124122959');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Bruna',49,'EQ','150936333','177004526');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Luciano',40,'MC','122057916','132187258');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Tatiane',42,'FA','175799913','175925218');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Cristiano',36,'EE','156348480','201851330');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Carla',37,'FG','103408864','119790706');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Leonardo',33,'ER','127452632','202204530');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Julia',47,'CC','110763004','177439854');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Alexandre',59,'MA','169765623','175925218');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Raquel',37,'MA','139651032','202204530');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Murilo',33,'CS','143909512','129589860');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Borges',21,'ER','140426036','119006885');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Jesus',38,'MA','157160376','175925218');
-INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Alan',19,'CS','158018841','201851330');
+/*Insert pro aluno*/
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Ana',30,'MA','146799184','182714085');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Pedro',33,'CS','191374029','151532692');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Maria',25,'FQ','135839766','121975978');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('João',60,'CS','187070372','133440074');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Luísa',48,'ME','146650224','192537948');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Rafael',18,'EM','173128603','215198663');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Sofia',38,'FG','132564265','141216008');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Carlos',43,'MA','178228664','116067083');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Camila',33,'FA','198827311','162706937');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('André',48,'EQ','180813147','131201912');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Mariana',49,'ME','190502273','121975978');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Lucas',44,'FA','172651048','161332004');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Juliana',42,'CC','165752695','215198663');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Fernando',24,'EE','155723669','133440074');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Laura',46,'EM','171862648','141216008');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Diego',23,'MA','120402711','166525612');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Carolina',26,'MP','161557656','182714085');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Gabriel',34,'MP','193666572','121975978');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Beatriz',59,'CS','169748107','162706937');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Tiago',38,'CC','183095806','132105302');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Isabela',19,'ME','115619707','220898912');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Mateus',36,'EM','111951632','132105302');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Natália',28,'CR','189926054','131201912');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Gustavo',56,'CR','153777009','170375059');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Vanessa',29,'CC','110703283','161332004');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Vinícius',31,'FG','112885026','126266399');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Patrícia',51,'MG','196968884','182714085');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Eduardo',31,'FQ','135687128','191816841');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Larissa',58,'CC','184171815','178477273');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Rodrigo',57,'CP','154823003','120779454');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Amanda',45,'EM','111948368','133440074');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Felipe',34,'ME','148348196','121975978');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Manuela',58,'FA','137914441','121975978');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Thiago',49,'MA','168119471','151532692');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Mariane',58,'FG','145838826','199411738');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Marcelo',46,'MC','164022942','161332004');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Jessica',52,'ME','196616321','199411738');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Fábio',56,'EM','155800243','214879953');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Renata',19,'FQ','179426357','192537948');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Daniel',43,'FA','181913923','199411738');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Bruna',29,'FQ','132325988','116067083');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Luciano',53,'ER','107156350','177764104');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Tatiane',30,'MG','176440950','161332004');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Cristiano',19,'FA','152677645','115372079');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Carla',30,'FQ','170171620','170375059');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Leonardo',60,'EE','192916622','161332004');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Julia',54,'FA','149119184','120779454');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Alexandre',58,'CP','123008966','124077326');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Raquel',56,'EM','146359177','116067083');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Murilo',23,'FQ','153340093','121975978');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Borges',27,'MG','159692533','215198663');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Jesus',46,'CR','196980231','121975978');
+INSERT INTO aluno (nome, idade, id_cursoa,ra, tcc_a) VALUES ('Alan',45,'MA','146083364','187244167');
+/*Insert pro historico*/
+INSERT INTO historico (id_alunoh, nota, ano ,semestre ,id_disciplinah) VALUES ('186054267',1.53,'2006','Primeiro','Robotica');
+INSERT INTO historico (id_alunoh, nota, ano ,semestre ,id_disciplinah) VALUES ('148343999',5.59,'2020','Primeiro','Ciencia da Computacao');
 
+/*Insert pro professor*/
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Ana',68,'Computacao','Redes','106957542');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Pedro',44,'Computacao','Programação','106649420');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Maria',70,'Fisica','Quantica','175773786');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('João',49,'Matematica','Geometria','105740404');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Luísa',57,'Fisica','Quantica','110434248');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Rafael',61,'Computacao','Ciencia da Computacao','121851906');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Sofia',59,'Engenharia','Quimica','144057131');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Carlos',41,'Matematica','Estatistica','178034669');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Camila',62,'Matematica','Calculos','186135429');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('André',55,'Computacao','Programação','115888509');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Mariana',57,'Fisica','Aplicada','196864061');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Lucas',48,'Engenharia','Mecanica','171616750');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Juliana',63,'Matematica','Geometria','183180408');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Fernando',45,'Fisica','Quantica','171474547');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Laura',40,'Matematica','Estatistica','190874425');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Diego',36,'Matematica','Calculos','168490148');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Carolina',66,'Computacao','Redes','153570415');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Gabriel',52,'Computacao','Programação','109362752');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Beatriz',34,'Engenharia','Eletrica','153714556');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Tiago',57,'Computacao','Programação','145432392');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Isabela',52,'Matematica','Estatistica','143547695');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Mateus',31,'Computacao','Redes','127590995');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Natália',42,'Computacao','Ciencia da Computacao','133142410');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Gustavo',69,'Matematica','Geometria','173153008');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Vanessa',31,'Engenharia','Eletrica','116824032');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Vinícius',31,'Computacao','Programação','107382122');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Patrícia',54,'Engenharia','Robotica','109047475');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Eduardo',41,'Matematica','Calculos','183769902');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Larissa',65,'Engenharia','Robotica','122752644');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Rodrigo',67,'Matematica','Probabilidade','161619976');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Amanda',41,'Matematica','Algebra','104633744');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Felipe',61,'Fisica','Aplicada','195206182');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Manuela',34,'Fisica','Geral','118662047');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Thiago',41,'Matematica','Calculos','112232808');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Mariane',39,'Engenharia','Mecanica','137316447');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Marcelo',39,'Engenharia','Mecanica','114029377');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Jessica',69,'Engenharia','Mecanica','144914373');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Fábio',70,'Matematica','Geometria','169454011');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Renata',39,'Engenharia','Eletrica','195703353');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Daniel',68,'Computacao','Programação','108097665');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Bruna',43,'Fisica','Aplicada','119680486');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Luciano',56,'Engenharia','Mecanica','120254808');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Tatiane',63,'Engenharia','Robotica','189839141');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Cristiano',49,'Matematica','Estatistica','162298986');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Carla',70,'Engenharia','Robotica','118890515');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Leonardo',68,'Matematica','Estatistica','120670477');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Julia',51,'Matematica','Estatistica','168003478');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Alexandre',32,'Matematica','Estatistica','165736307');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Raquel',60,'Fisica','Quantica','194214098');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Murilo',61,'Fisica','Aplicada','169773220');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Borges',66,'Matematica','Estatistica','174685356');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Jesus',50,'Fisica','Quantica','199133462');
+INSERT INTO professor (nome, idade, id_deptop,id_disciplinap,ra) VALUES ('Alan',33,'Engenharia','Mecanica','161425662');
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*Insert pro orientador*/
+INSERT INTO orientador (id_grupoo, id_professor) VALUES ('178477273', '112232808');
+INSERT INTO orientador (id_grupoo, id_professor) VALUES ('132105302', '112232808');
+INSERT INTO orientador (id_grupoo, id_professor) VALUES ('141216008', '105740404');
+INSERT INTO orientador (id_grupoo, id_professor) VALUES ('166525612', '116824032');
+INSERT INTO orientador (id_grupoo, id_professor) VALUES ('143105128', '108097665');
+INSERT INTO orientador (id_grupoo, id_professor) VALUES ('116067083', '169773220');
+INSERT INTO orientador (id_grupoo, id_professor) VALUES ('115372079', '174685356');
+INSERT INTO orientador (id_grupoo, id_professor) VALUES ('177764104', '121851906');
+INSERT INTO orientador (id_grupoo, id_professor) VALUES ('151532692', '118890515');
+INSERT INTO orientador (id_grupoo, id_professor) VALUES ('220898912', '168003478');
+INSERT INTO orientador (id_grupoo, id_professor) VALUES ('192537948', '175773786');
+INSERT INTO orientador (id_grupoo, id_professor) VALUES ('199411738', '186135429');
+INSERT INTO orientador (id_grupoo, id_professor) VALUES ('120779454', '175773786');
+INSERT INTO orientador (id_grupoo, id_professor) VALUES ('182714085', '106957542');
+INSERT INTO orientador (id_grupoo, id_professor) VALUES ('121975978', '173153008');
+INSERT INTO orientador (id_grupoo, id_professor) VALUES ('131201912', '183769902');
+INSERT INTO orientador (id_grupoo, id_professor) VALUES ('162706937', '190874425');
+INSERT INTO orientador (id_grupoo, id_professor) VALUES ('187244167', '189839141');
+INSERT INTO orientador (id_grupoo, id_professor) VALUES ('161332004', '104633744');
+INSERT INTO orientador (id_grupoo, id_professor) VALUES ('191816841', '144914373');
+INSERT INTO orientador (id_grupoo, id_professor) VALUES ('131198358', '189839141');
+INSERT INTO orientador (id_grupoo, id_professor) VALUES ('126266399', '168003478');
+INSERT INTO orientador (id_grupoo, id_professor) VALUES ('215198663', '121851906');
+INSERT INTO orientador (id_grupoo, id_professor) VALUES ('214879953', '144057131');
+INSERT INTO orientador (id_grupoo, id_professor) VALUES ('124077326', '110434248');
+INSERT INTO orientador (id_grupoo, id_professor) VALUES ('170375059', '173153008');
+INSERT INTO orientador (id_grupoo, id_professor) VALUES ('133440074', '199133462');
