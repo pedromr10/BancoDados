@@ -1,4 +1,4 @@
-CREATE DATABASE faculdade();
+CREATE DATABASE faculdade;
 
 CREATE TABLE departamento(
   nome VARCHAR(20),
