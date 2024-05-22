@@ -1,8 +1,8 @@
 /*Insert departamento:*/
 insert into departamento (nome, depto) values ('Computacao','Pedro');
-insert into departamento (nome, depto) values ('Computacao','Cristiano');
-insert into departamento (nome, depto) values ('Computacao','Larissa');
-insert into departamento (nome, depto) values ('Computacao','Maria');
+insert into departamento (nome, depto) values ('Engenharia','Cristiano');
+insert into departamento (nome, depto) values ('Fisica','Larissa');
+insert into departamento (nome, depto) values ('Matematica','Maria');
 
 
 /*Insert curso*/
