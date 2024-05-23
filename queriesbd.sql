@@ -13,6 +13,7 @@ WHERE historicoprof.id_professorhp = '185906565';
 
 /*Querie 3:*/
 
+
 /*Querie 4:*/
 SELECT professor.nome,d.nome
 FROM professor
