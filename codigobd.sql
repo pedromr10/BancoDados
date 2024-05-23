@@ -60,8 +60,8 @@ CREATE TABLE orientador(
 CREATE TABLE historico(
   id_alunoh VARCHAR(9),
   nota FLOAT(2),
-  ano INT,
-  semestre INT,
+  semestre VARCHAR(10),
+  ano INT VARCHAR(10),
   id_disciplinah VARCHAR(10),
   FOREIGN KEY (id_alunoh) REFERENCES aluno(ra),
   FOREIGN KEY (id_disciplinah) REFERENCES disciplina(codigo)
@@ -70,8 +70,8 @@ CREATE TABLE historico(
 CREATE TABLE historicoprof(
   id_professorhp VARCHAR(9),
   id_disciplinahp VARCHAR(10),
-  semestre INT,
-  ano INT,
+  semestre VARCHAR(10),
+  ano INT VARCHAR(10),
   FOREIGN KEY (id_professorhp) REFERENCES professor(ra),
   FOREIGN KEY (id_disciplinahp) REFERENCES disciplina(codigo)
 );
