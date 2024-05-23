@@ -35,7 +35,7 @@ CREATE TABLE aluno(
   tcc_a VARCHAR(9),
   PRIMARY KEY(ra),
   FOREIGN KEY (id_cursoa) REFERENCES curso(id_curso),
-  FOREIGN KEY (tcc_a) REFERENCES tcc(id_grupo)
+  FOREIGN KEY (tcc_a) REFERENCES tcc(tcc_grupo)
 );
 
 CREATE TABLE professor(
@@ -53,7 +53,7 @@ CREATE TABLE orientador(
   id_grupoo VARCHAR(9),
   id_professor VARCHAR(9),
   PRIMARY KEY(id_professor),
-  FOREIGN KEY (id_grupoo) REFERENCES tcc(id_grupo),
+  FOREIGN KEY (id_grupoo) REFERENCES tcc(tcc_grupo),
   FOREIGN KEY (id_professor) REFERENCES professor(ra)
 );
 
