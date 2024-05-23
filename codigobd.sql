@@ -23,8 +23,8 @@ CREATE TABLE disciplina(
 );
 
 CREATE TABLE tcc(
-  id_grupo VARCHAR(9),
-  PRIMARY KEY (id_grupo)
+  tcc_grupo VARCHAR(9),
+  PRIMARY KEY (tcc_grupo)
 );
 
 CREATE TABLE aluno(
