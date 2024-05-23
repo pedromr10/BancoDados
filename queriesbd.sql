@@ -12,7 +12,11 @@ JOIN disciplina d ON historicoprof.id_disciplinahp = d.codigo
 WHERE historicoprof.id_professorhp = '185906565';
 
 /*Querie 3:*/
-
+SELECT aluno.nome
+FROM aluno
+INNER JOIN historico ON aluno.ra = historico.id_alunoh
+INNER JOIN disciplina ON historico.id_disciplinah = disciplina.codigo
+WHERE historico.nota >= 5 AND historico.ano = '2004' AND historico.semestre = 'Segundo';
 
 /*Querie 4:*/
 SELECT professor.nome,d.nome
