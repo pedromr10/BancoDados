@@ -12,7 +12,7 @@ Nosso versionamento foi divido em cinco partes.
 * codigobd: onde o código para a criação da database e tabelas se apresenta;
 * dadosaleatoriosbd: onde os valores aleatórios serão armazenados para testagem do projeto;
 * queriesbd: onde estarão as queries para resolver os itens pedidos;
-* 
+* diagrama.png: onde se localiza o aqruivo do nosso datagrama, para uma melhor visualização.
 
 Desta maneira, para o funcionamento do projeto:
 
